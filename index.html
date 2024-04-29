@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <link rel="stylesheet" href="style.css">
   
@@ -12,42 +12,35 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   
-  <title>Frontend Mentor | Blog preview card</title>
+  <title>Blog preview card</title>
 
 </head>
 <body>
+  <div class="main-content">
+         <div class="banner">
+            <img src="./images/illustration-article.svg" alt="Banner Image">
+         </div>
 
-  <div class="container">
+         <div class="content">
+            <h4>Learning</h4>
 
-    <div class="main-content">
-        <img src="./assets/images/illustration-article.svg" alt="Banner" class="banner-img">
-         
-        <h3 class="button">Learning</h3>
+            <p class="publish-date">Published 21 Dec 2023</p>
+            
+            <a href="#"><h1 class="title">HTML & CSS foundations</h1></a>
 
-        <p class="publish-date">Published 21 Dec 2023</p>
+            <p class="description">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        </div>
 
-        <a href="#"><h1 class="headline">HTML & CSS foundations</h1></a>
+        <div class="profile-info">
+            <img src="./images/image-avatar.webp" alt="Avatar" class="avatar">
+            
+            <h3 class="profile-name">Greg Hooper</h3>
+        </div>
+  </div>
 
-        <p class="intro">These languages are the backbone of every <br>
-          website, defining structure, content, and <br>
-          presentation.
-        </p>
-    
-      <div class="profile">
-        <img src="./assets/images/image-avatar.webp" alt="Avatar">
-
-        <h3 class="profile-name">Greg Hooper</h3>
-      </div>
-    </div>
-
-    <div class="attribution">
-       <span>
+  <div class="attribution">
           Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
           Coded by <a href="#">Desmond Maina</a>.
-      </span>
   </div>
-  </div>
-
-  
 </body>
 </html>
